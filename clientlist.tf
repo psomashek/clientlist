@@ -27,7 +27,7 @@ resource "akamai_clientlist_list" "PSS_CLIENTLIST" {
     expiration_date = "2026-09-06T15:58:39.225+00:00"
   }
   items {
-    value           = "104.241.203.1"
+    value           = "104.241.203.123"
     description     = "Item two"
     tags            = ["tag2", "tag3"]
     expiration_date = ""
