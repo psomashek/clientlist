@@ -33,7 +33,7 @@ resource "akamai_clientlist_list" "PSS_CLIENTLIST" {
     expiration_date = ""
   }
   items {
-    value           = "104.241.203.23"
+    value           = "104.241.203.237"
     description     = "Item three"
     tags            = ["tag1"]
     expiration_date = ""
